@@ -1,0 +1,161 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el tamaño del logo según tu diseño */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambia al color secundario al hacer hover */
+}
+
+main {
+    padding: 2rem;
+}
+
+.banner {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #333;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Cambia al color secundario al hacer hover */
+}
+
+.productos {
+    padding: 4rem 0;
+}
+
+.productos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.acerca {
+    padding: 4rem 0;
+    background-color: #f8f8f8;
+}
+
+.contacto {
+    padding: 4rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #35424a;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries para dispositivos diferentes */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.7rem 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.5rem 0.9rem;
+    }
+}
