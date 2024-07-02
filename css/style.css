@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #003366;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section {
+    padding: 80px 20px;
+}
+.hero {
+    background-image: url('url-de-imagen');
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+}
+.button {
+    background-color: #00CC66;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #00994C;
+}
