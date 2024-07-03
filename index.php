@@ -4,6 +4,9 @@
 include('cab.php');
 ?>
 <body>
+    <?php
+    include('adress.php');
+    ?>
     <header>
         <?php
         include('header.php');
