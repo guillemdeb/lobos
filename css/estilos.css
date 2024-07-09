@@ -1,0 +1,218 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Encabezado */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Hero Section */
+#hero {
+    background: url('/img/electrodomesticos-de-hosteleria.webp') no-repeat center center/cover;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    padding-top: 150px;
+    max-height: 400px;
+}
+
+#hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+#hero .cta {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sección de Servicios */
+#servicios {
+    padding: 50px 0;
+}
+
+#servicios h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Sección de Contacto */
+#contacto {
+    width: 80%;
+    padding: 50px 0;
+    background: #f4f4f4;
+    margin-left: 200px;
+
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contacto form {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contacto form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contacto form input,
+#contacto form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacto form button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto form button:hover {
+    background: #e8491d;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        float: none;
+        text-align: center;
+    }
+
+    header .logo {
+        text-align: center;
+        float: none;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+}
+.preheaded{
+    position: fixed;
+    background-color: #F6F6F6;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    width:100%;
+    max-height: 80px;
+ }
+ /*preheaded*/
+ .preheaded{
+    position: fixed;
+    background-color: #F6F6F6;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    width:100%;
+    max-height: 80px;
+ }
+ 
+ col{
+     width: auto;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-weight: lighter;
+ }
+ .empresa{
+color:red;
+ text-transform: uppercase;}
+

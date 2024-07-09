@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Higuiene Industrial Lobo</title>
+        <title>Higiene Industrial Lobo</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -21,8 +21,11 @@
             <?php
             include('header.php');
             ?>
+           
         </header>
-        <main></main>
+        <main> <?php
+            include('nav.php');
+            ?></main>
         <footer>
             <!-- place footer here -->
         </footer>
